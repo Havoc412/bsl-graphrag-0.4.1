@@ -1,0 +1,309 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d14" for="edge" attr.name="level" attr.type="long" />
+  <key id="d13" for="edge" attr.name="human_readable_id" attr.type="long" />
+  <key id="d12" for="edge" attr.name="id" attr.type="string" />
+  <key id="d11" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d10" for="edge" attr.name="description" attr.type="string" />
+  <key id="d9" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d8" for="node" attr.name="level" attr.type="long" />
+  <key id="d7" for="node" attr.name="cluster" attr.type="string" />
+  <key id="d6" for="node" attr.name="id" attr.type="string" />
+  <key id="d5" for="node" attr.name="human_readable_id" attr.type="long" />
+  <key id="d4" for="node" attr.name="degree" attr.type="long" />
+  <key id="d3" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&#20849;&#20215;&#38190;&#24418;&#25104;">
+      <data key="d0">EVENT</data>
+      <data key="d1">covalent bond formation between molecules under specific conditions</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d3">EVENT</data>
+      <data key="d4">1</data>
+      <data key="d5">0</data>
+      <data key="d6">eb79f710effd43f29a817c5df3bfa176</data>
+    </node>
+    <node id="&#31454;&#20105;&#24615;&#32467;&#21512;">
+      <data key="d0">EVENT</data>
+      <data key="d1">competitive binding between molecules for the same target site</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d3">EVENT</data>
+      <data key="d4">1</data>
+      <data key="d5">1</data>
+      <data key="d6">8541e938d52343949082040b1ccdb602</data>
+    </node>
+    <node id="&#37238;&#27963;&#24615;&#20301;&#28857;">
+      <data key="d0">GEO</data>
+      <data key="d1">Here is a comprehensive summary of the data provided:
+
+**Covalent Bond Formation and Enzyme Active Site**
+
+The covalent bond formation, also known as "&#20849;&#20215;&#38190;&#24418;&#25104;", is related to competitive binding, or "&#31454;&#20105;&#24615;&#32467;&#21512;". This process occurs at the enzyme active site, specifically at the "&#37238;&#27963;&#24615;&#20301;&#28857;" (enzyme active site where molecules bind). In other words, the covalent bond formation between a molecule and an enzyme is facilitated by the competitive binding of the molecule to the enzyme's active site.
+
+Note: I have resolved the contradiction in the descriptions by understanding that they are referring to the same concept from different perspectives. The first description focuses on the location (enzyme active site), while the second description highlights the process (competitive binding) occurring at this location.</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d3">GEO</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">3a24f1e917c74712a9853e26210af5fe</data>
+    </node>
+    <node id="INFLUENCED_BY">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d4">2</data>
+      <data key="d5">3</data>
+      <data key="d6">c8d4eb10fae84dd9934e098486b390ea</data>
+    </node>
+    <node id="LEADS_TO">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d4">2</data>
+      <data key="d5">4</data>
+      <data key="d6">b80c2dfc1eb24e9c8c226b49c6e4eb18</data>
+    </node>
+    <node id="&#31561;&#24615;&#36136;">
+      <data key="d0">GEO</data>
+      <data key="d1">properties of molecules</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d3">GEO</data>
+      <data key="d4">0</data>
+      <data key="d5">5</data>
+      <data key="d6">81498a8c5c824bbbae07cd0896af2e8f</data>
+    </node>
+    <node id="&#20849;&#20215;&#38190;">
+      <data key="d0">EVENT</data>
+      <data key="d1">covalent bond formation between molecules</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d3">EVENT</data>
+      <data key="d4">1</data>
+      <data key="d5">6</data>
+      <data key="d6">239ef18fd2544259bf44a4f1c16d6312</data>
+    </node>
+    <node id="&#31454;&#20105;&#24615;&#32467;&#21512;&#20301;&#28857;">
+      <data key="d0">GEO</data>
+      <data key="d1">site where competitive binding occurs</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d3">GEO</data>
+      <data key="d4">0</data>
+      <data key="d5">7</data>
+      <data key="d6">2e8b7475fe324ffb9d47c06f3d69296f</data>
+    </node>
+    <node id="&#37238;&#27963;&#24615;">
+      <data key="d0">EVENT</data>
+      <data key="d1">enzyme activity and catalysis of reactions</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d3">EVENT</data>
+      <data key="d4">1</data>
+      <data key="d5">8</data>
+      <data key="d6">41447dc01bc5433baf5ad26821e0a110</data>
+    </node>
+    <node id="&#20301;&#28857;">
+      <data key="d0">GEO</data>
+      <data key="d1">location or site on a molecule</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d3">GEO</data>
+      <data key="d4">0</data>
+      <data key="d5">9</data>
+      <data key="d6">30353beae9e543f0a302b85d7e2cdd46</data>
+    </node>
+    <node id="&#20998;&#23376;">
+      <data key="d0">GEO</data>
+      <data key="d1">Based on the provided data, here is a comprehensive summary of the entity "\u5206\u5b50" (which translates to "&#33026;&#36136;" or "lipid" in English):
+
+The lipid molecule has specific properties. It is characterized by its ability to form covalent bonds, which are related to competitive binding sites. Additionally, lipids exhibit enzymatic activity, which is associated with specific binding sites. The term "&#33026;&#24615;" (fat-like) is related to the concept of having specific properties, suggesting that lipids have distinct characteristics.
+
+Note: I resolved the contradiction by assuming that the descriptions refer to different aspects of the lipid molecule's properties and behavior.</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d3">GEO</data>
+      <data key="d4">0</data>
+      <data key="d5">10</data>
+      <data key="d6">2e7d448c308f4f639c5c3245a32d0d07</data>
+    </node>
+    <node id="&#33026;&#24615;">
+      <data key="d0">GEO</data>
+      <data key="d1">lipophilic characteristic of molecules</data>
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d4">1</data>
+      <data key="d5">11</data>
+      <data key="d6">a773ba34ff8a4f798479e726ddd9ac91</data>
+    </node>
+    <node id="CHARACTERIZED_BY">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d4">1</data>
+      <data key="d5">12</data>
+      <data key="d6">f9a5cfa09143420fb953140da40cb701</data>
+    </node>
+    <node id="&#34507;&#30333;&#37238;">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">&#34507;&#30333;&#37238;&#26159;&#22242;&#21344;&#25454;&#30340;&#38774;&#26631;&#65289;</data>
+      <data key="d2">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d3">PERSON</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+      <data key="d4">1</data>
+      <data key="d5">13</data>
+      <data key="d6">6b358582f1b44081946980a95047b9f8</data>
+    </node>
+    <node id="HIV&#30149;&#27602;">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">HIV&#30149;&#27602;&#26159;&#22242;&#21344;&#25454;&#25233;&#21046;&#30340;&#30446;&#26631;&#65289;</data>
+      <data key="d2">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d3">PERSON</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+      <data key="d4">1</data>
+      <data key="d5">14</data>
+      <data key="d6">c6441464280940e89a518097f112aada</data>
+    </node>
+    <node id="&#22242;&#21344;&#25454;">
+      <data key="d0">PERSON</data>
+      <data key="d1">&#22242;&#21344;&#25454;&#26159;&#25351;&#25239;&#20307;&#25110;&#20854;&#20182;&#34507;&#30333;&#36136;&#19982;&#38774;&#26631;&#30456;&#20114;&#20316;&#29992;&#65289;</data>
+      <data key="d2">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d3">PERSON</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+      <data key="d4">5</data>
+      <data key="d5">15</data>
+      <data key="d6">ceb4809750894eb395c77ab49a87aaec</data>
+    </node>
+    <node id="&#25239;&#20307;">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">&#25239;&#20307;&#26159;&#22242;&#21344;&#25454;&#30340;&#26469;&#28304;&#65289;</data>
+      <data key="d2">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+      <data key="d4">1</data>
+      <data key="d5">16</data>
+      <data key="d6">f9380bbae1994a0c842a1a91d186cc1e</data>
+    </node>
+    <node id="&#34507;&#30333;&#36136;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+      <data key="d4">1</data>
+      <data key="d5">17</data>
+      <data key="d6">aec2ea26e3ee4cad8ec1f6c863a34519</data>
+    </node>
+    <node id="&#38774;&#26631;">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">&#38774;&#26631;&#26159;&#22242;&#21344;&#25454;&#30340;&#30446;&#26631;&#65289;</data>
+      <data key="d2">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d4">0</data>
+      <data key="d5">18</data>
+      <data key="d6">9bfcc3f04a104b7a839b5985108fb261</data>
+    </node>
+    <node id="&#22810;&#32858;&#34507;&#30333;&#21069;&#20307;">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">&#22810;&#32858;&#34507;&#30333;&#21069;&#20307;&#26159;&#22242;&#21344;&#25454;&#25233;&#21046;&#30340;&#30446;&#26631;&#65289;</data>
+      <data key="d2">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d4">0</data>
+      <data key="d5">19</data>
+      <data key="d6">e760c3609ea846a49155cc5743f17fa4</data>
+    </node>
+    <node id="&#31354;&#38388;&#20301;&#38459;">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d7">0</data>
+      <data key="d8">0</data>
+      <data key="d4">1</data>
+      <data key="d5">20</data>
+      <data key="d6">879380c14433402eaa9d4614ba247361</data>
+    </node>
+    <node id="&#30149;&#27602;">
+      <data key="d0">ORGANIZATION</data>
+      <data key="d1">&#30149;&#27602;&#26159;&#22242;&#21344;&#25454;&#25233;&#21046;&#30340;&#30446;&#26631;&#65289;</data>
+      <data key="d2">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d4">0</data>
+      <data key="d5">21</data>
+      <data key="d6">9356c123ae584f0e9e99847abf3414ea</data>
+    </node>
+    <edge source="&#20849;&#20215;&#38190;&#24418;&#25104;" target="LEADS_TO">
+      <data key="d9">4.0</data>
+      <data key="d10">&#31454;&#20105;&#24615;&#32467;&#21512;</data>
+      <data key="d11">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d12">0a2b91ffcef24b85b0a912ad808d4b60</data>
+      <data key="d13">0</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="&#31454;&#20105;&#24615;&#32467;&#21512;" target="INFLUENCED_BY">
+      <data key="d9">4.0</data>
+      <data key="d10">&#37238;&#27963;&#24615;&#20301;&#28857;</data>
+      <data key="d11">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d12">564f8927f9444b8f811e4a2a43a4116a</data>
+      <data key="d13">1</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="INFLUENCED_BY" target="&#37238;&#27963;&#24615;">
+      <data key="d9">4.0</data>
+      <data key="d10">&#20301;&#28857;</data>
+      <data key="d11">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d12">dce65e4370344547bfad0f5e50669e86</data>
+      <data key="d13">2</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="LEADS_TO" target="&#20849;&#20215;&#38190;">
+      <data key="d9">2.0</data>
+      <data key="d10">&#31454;&#20105;&#24615;&#32467;&#21512;&#20301;&#28857;</data>
+      <data key="d11">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d12">1a22f102649d458b9b7edb2a4200bb46</data>
+      <data key="d13">3</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="&#33026;&#24615;" target="CHARACTERIZED_BY">
+      <data key="d9">2.0</data>
+      <data key="d10">&#31561;&#24615;&#36136;</data>
+      <data key="d11">e34781099bf53305c35e06ebb279cae5</data>
+      <data key="d12">6fff1964d46c43159f5efa3779b27645</data>
+      <data key="d13">4</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="&#34507;&#30333;&#37238;" target="&#22242;&#21344;&#25454;">
+      <data key="d9">4.0</data>
+      <data key="d10">&#22242;&#21344;&#25454;&#36890;&#36807;&#31354;&#38388;&#20301;&#38459;&#25233;&#21046;&#20102;&#34507;&#30333;&#37238;&#30340;&#27963;&#24615;&#65292;&#36827;&#32780;&#25233;&#21046;&#20102;HIV&#30149;&#27602;&#30340;&#25104;&#29087;&#21644;&#20256;&#25773;</data>
+      <data key="d11">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d12">e1d2bb167d59419f992194cee5a8b000</data>
+      <data key="d13">5</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="HIV&#30149;&#27602;" target="&#22242;&#21344;&#25454;">
+      <data key="d9">5.0</data>
+      <data key="d10">&#22242;&#21344;&#25454;&#36890;&#36807;&#25233;&#21046;&#34507;&#30333;&#37238;&#30340;&#27963;&#24615;&#65292;&#36827;&#32780;&#25233;&#21046;&#20102;HIV&#30149;&#27602;&#30340;&#25104;&#29087;&#21644;&#20256;&#25773;</data>
+      <data key="d11">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d12">eaa128ecfdd741e49090dd54733dbdc5</data>
+      <data key="d13">6</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="&#22242;&#21344;&#25454;" target="&#34507;&#30333;&#36136;">
+      <data key="d9">2.0</data>
+      <data key="d10">&#22242;&#21344;&#25454;&#36890;&#36807;&#19982;&#34507;&#30333;&#36136;&#30456;&#20114;&#20316;&#29992;&#65292;&#25233;&#21046;&#20102;&#34507;&#30333;&#37238;&#30340;&#27963;&#24615;</data>
+      <data key="d11">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d12">aaaba1c4470e494fab66225d3113b5b2</data>
+      <data key="d13">7</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="&#22242;&#21344;&#25454;" target="&#31354;&#38388;&#20301;&#38459;">
+      <data key="d9">2.0</data>
+      <data key="d10">&#22242;&#21344;&#25454;&#36890;&#36807;&#31354;&#38388;&#20301;&#38459;&#65292;&#36896;&#25104;&#20102;&#34507;&#30333;&#37238;&#27963;&#24615;&#30340;&#25233;&#21046;</data>
+      <data key="d11">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d12">1aa55c4dbddc4cb6b6308e62cc2ee170</data>
+      <data key="d13">8</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="&#22242;&#21344;&#25454;" target="&#25239;&#20307;">
+      <data key="d9">1.0</data>
+      <data key="d10">&#22242;&#21344;&#25454;&#36890;&#36807;&#19982;&#25239;&#20307;&#30456;&#20114;&#20316;&#29992;&#65292;&#25233;&#21046;&#20102;&#34507;&#30333;&#37238;&#30340;&#27963;&#24615;</data>
+      <data key="d11">cedfbf89365ba0da53a39e4f39da9edf</data>
+      <data key="d12">4b826c2d6a8d45a9bcc532c8b3037825</data>
+      <data key="d13">9</data>
+      <data key="d14">0</data>
+    </edge>
+  </graph>
+</graphml>

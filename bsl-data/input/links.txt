@@ -1,0 +1,83 @@
+# Knowledge Graph to Specific Files
+
+## Molecules/Drugs (SMILES)
+### Linked Files
+- common_frag_mols.csv: Provides fragment information of the molecule.
+- description_200w.csv: Provides structural descriptions of the molecule and how its fragments are connected.
+- DDI.csv: If the molecule interacts with other drugs, it provides descriptions of related side effects.
+- DTA.csv and DTA_description.csv: Provides the affinity (Kd value) of the molecule with target proteins and detailed descriptions.
+- DTI.csv: Provides the interaction strength (Y value) of the molecule with target proteins.
+- gdscv2.csv: Provides the IC50 value (inhibitory effect) of the molecule against specific cell lines.
+- mpp_classification_description.csv and mpp_regression_description.csv: Provides classification and physicochemical properties of the molecule.
+
+### Knowledge Graph Description
+"Molecule A (SMILES: X) consists of fragments B, C, D, has high affinity with target protein E (Kd value: F), an IC50 value of H against cell line G, and exhibits anti-HIV activity."
+
+## Molecular Fragments
+### Linked Files
+- common_frag_mols.csv: Provides all molecules containing this fragment.
+- description_200w.csv: Provides how the fragment is connected within molecules.
+
+### Knowledge Graph Description
+"Fragment B appears in molecules A, X, Y and is connected to fragment C via a single bond in molecule A."
+
+## Target Proteins
+### Linked Files
+- DTA.csv and DTA_description.csv: Provides all drugs with affinity to this target protein and their Kd values.
+- DTI.csv: Provides all drugs with interactions with this target protein and their interaction strength (Y values).
+
+### Knowledge Graph Description
+"Target protein E has affinity with drugs A, X, Y, where drug A has a Kd value of F and interaction strength of G."
+
+## Cell Lines
+### Linked Files
+- gdscv2.csv: Provides all drugs with inhibitory effects on this cell line and their IC50 values.
+- PANCANCER_Genetic_feature.csv: Provides genetic features of this cell line and their mutation status.
+
+### Knowledge Graph Description
+"Cell line G is sensitive to drugs A, X, Y, with drug A having an IC50 value of H. This cell line has genetic feature I, which is not mutated."
+
+## Side Effects
+### Linked Files
+- DDI.csv: Provides all drug combinations causing this side effect and their descriptions.
+
+### Knowledge Graph Description
+"Side effect C is caused by the interaction between drug A and drug B, specifically manifested as esophageal spasm."
+
+## Molecular Properties
+### Linked Files
+- mpp_classification_description.csv: Provides classification properties of the molecule (e.g., anti-HIV activity).
+- mpp_regression_description.csv: Provides physicochemical properties of the molecule (e.g., rotational constants, dipole moments).
+
+### Knowledge Graph Description
+"Molecule A exhibits anti-HIV activity, with physicochemical properties including rotational constant X and dipole moment Y."
+
+## Genetic Features
+### Linked Files
+- PANCANCER_Genetic_feature.csv: Provides all cell lines with this genetic feature and their mutation status.
+
+### Knowledge Graph Description
+"Genetic feature I appears in cell lines G, H, K, where this feature is not mutated in cell line G."
+
+## IC50 Values
+### Linked Files
+- gdscv2.csv: Provides all drugs with specific IC50 values and their corresponding cell lines.
+
+### Knowledge Graph Description
+"Drug A has an IC50 value of H against cell line G, indicating strong inhibitory effects on G."
+
+## Kd Values
+### Linked Files
+- DTA.csv and DTA_description.csv: Provides all drugs with specific Kd values and their corresponding target proteins.
+
+### Knowledge Graph Description
+"Drug A has a Kd value of F with target protein E, indicating high affinity with E."
+
+## Interaction Descriptions
+### Linked Files
+- DDI.csv: Provides descriptions of drug-drug interactions.
+- DTI.csv: Provides descriptions of drug-target interactions.
+
+### Knowledge Graph Description
+"Drug A interacts with drug B, potentially causing side effect C."
+"Drug A has an interaction strength of G with target protein E."

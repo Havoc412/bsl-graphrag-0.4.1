@@ -209,6 +209,7 @@ class GlobalSearch(BaseSearch[GlobalContextBuilder]):
                 {"role": "system", "content": search_prompt},
                 {"role": "user", "content": query},
             ]
+            # search_messages = [ {"role": "user", "content": search_prompt + "\n\n### USER QUESTION ### \n\n" + query} ]
             async with self.semaphore:
                 search_response = await self.llm.agenerate(
                     messages=search_messages, streaming=False, **llm_kwargs
@@ -358,6 +359,7 @@ class GlobalSearch(BaseSearch[GlobalContextBuilder]):
                 {"role": "system", "content": search_prompt},
                 {"role": "user", "content": query},
             ]
+            # search_messages = [ {"role": "user", "content": search_prompt + "\n\n### USER QUESTION ### \n\n" + query} ]
 
             search_response = await self.llm.agenerate(
                 search_messages,
@@ -454,6 +456,7 @@ class GlobalSearch(BaseSearch[GlobalContextBuilder]):
             {"role": "system", "content": search_prompt},
             {"role": "user", "content": query},
         ]
+        # search_messages = [ {"role": "user", "content": search_prompt + "\n\n### USER QUESTION ### \n\n" + query} ]
 
         async for resp in self.llm.astream_generate(  # type: ignore
             search_messages,

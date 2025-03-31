@@ -1,0 +1,51 @@
+File Description Organization
+
+# common_frag_mols.csv
+Content Focus: This file contains SMILES representations of molecules and their fragment information. SMILES is a string representation of chemical molecules, and the fragment information describes the substructures of the molecules.
+Entities: Molecules (represented by SMILES), molecular fragments.
+Relationships: Composition relationship between molecules and their fragments.
+
+# DDI.csv
+Content Focus: This file describes drug-drug interactions (DDI), including SMILES representations of two drugs and their interaction descriptions (e.g., side effects).
+Entities: Drugs (represented by SMILES), side effects.
+Relationships: Interaction relationships between drugs, and associations between drugs and side effects.
+
+# description_200w.csv
+Content Focus: This file provides SMILES representations of molecules and their descriptions, detailing the structure, fragments, and their connections.
+Entities: Molecules (represented by SMILES), molecular fragments.
+Relationships: Connection relationships between molecules and their fragments.
+
+# DTA.csv
+Content Focus: This file describes drug-target affinity (DTA), including SMILES representations of drugs, target protein names, and their affinity (Kd values).
+Entities: Drugs (represented by SMILES), target proteins.
+Relationships: Affinity relationships between drugs and target proteins.
+
+# DTA_description.csv
+Content Focus: This file is an extension of DTA.csv, providing detailed descriptions of drug-target affinity.
+Entities: Drugs (represented by SMILES), target proteins.
+Relationships: Affinity relationships between drugs and target proteins.
+
+# DTI.csv
+Content Focus: This file describes drug-target interactions (DTI), including SMILES representations of drugs, target protein names, and their interaction strength (Y values).
+Entities: Drugs (represented by SMILES), target proteins.
+Relationships: Interaction relationships between drugs and target proteins.
+
+# gdscv2.csv
+Content Focus: This file describes the IC50 values (half-maximal inhibitory concentration) of drugs against specific cell lines, including SMILES representations of drugs, cell line names, and their IC50 values.
+Entities: Drugs (represented by SMILES), cell lines.
+Relationships: Inhibitory relationships between drugs and cell lines.
+
+# mpp_classification_description.csv
+Content Focus: This file contains SMILES representations of molecules and their classification descriptions, detailing the properties of the molecules (e.g., whether they have anti-HIV activity).
+Entities: Molecules (represented by SMILES), molecular properties.
+Relationships: Classification relationships between molecules and their properties.
+
+# mpp_regression_description.csv
+Content Focus: This file contains SMILES representations of molecules and their regression descriptions, detailing the physicochemical properties of the molecules (e.g., rotational constants, dipole moments, etc.).
+Entities: Molecules (represented by SMILES), physicochemical properties.
+Relationships: Regression relationships between molecules and their physicochemical properties.
+
+# PANCANCER_Genetic_feature.csv
+Content Focus: This file describes the genetic features of cancer cell lines, including cell line names, genetic features, and whether they are mutated.
+Entities: Cell lines, genetic features.
+Relationships: Association relationships between cell lines and their genetic features.

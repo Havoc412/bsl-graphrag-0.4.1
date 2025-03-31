@@ -27,6 +27,8 @@ from graphrag.query.llm.oai.typing import (
 )
 from graphrag.query.llm.text_utils import chunk_text
 
+import ollama
+
 
 class OpenAIEmbedding(BaseTextEmbedding, OpenAILLMImpl):
     """Wrapper for OpenAI Embedding models."""
@@ -80,22 +82,52 @@ class OpenAIEmbedding(BaseTextEmbedding, OpenAILLMImpl):
         )
         chunk_embeddings = []
         chunk_lens = []
+
         for chunk in token_chunks:
             try:
-                embedding, chunk_len = self._embed_with_retry(chunk, **kwargs)
+                embedding = ollama.embeddings(model="nomic-embed-text", prompt=chunk)['embedding']
                 chunk_embeddings.append(embedding)
-                chunk_lens.append(chunk_len)
-            # TODO: catch a more specific exception
+                chunk_lens.append(len(chunk))  # 假设 chunk 的长度是通过 len(chunk) 获取的
             except Exception as e:  # noqa BLE001
                 self._reporter.error(
                     message="Error embedding chunk",
                     details={self.__class__.__name__: str(e)},
                 )
-
                 continue
+
+        # 将 chunk_embeddings 转换为 numpy 数组以便进行数值计算
+        chunk_embeddings = np.array(chunk_embeddings)
+
+        # 计算加权平均
         chunk_embeddings = np.average(chunk_embeddings, axis=0, weights=chunk_lens)
+
+        # 归一化
         chunk_embeddings = chunk_embeddings / np.linalg.norm(chunk_embeddings)
+
+        # 返回归一化后的嵌入向量列表
         return chunk_embeddings.tolist()
+    
+        # chunk_embeddings = []
+        # # chunk_lens = []
+        # for chunk in token_chunks:
+        #     # decoded_chunk = self.token_encoder.decode(chunk)
+        #     try:
+        #         # embedding, chunk_len = self._embed_with_retry(chunk, **kwargs)
+        #         embedding = ollama.embeddings(model="quentinz/bge-large-zh-v1.5:latest", prompt=chunk)['embedding']
+        #         chunk_embeddings.append(embedding)
+        #         # chunk_lens.append(chunk_len)
+        #     # TODO: catch a more specific exception
+        #     except Exception as e:  # noqa BLE001
+        #         self._reporter.error(
+        #             message="Error embedding chunk",
+        #             details={self.__class__.__name__: str(e)},
+        #         )
+
+        #         continue
+        # # chunk_embeddings = np.average(chunk_embeddings, axis=0, weights=chunk_lens)
+        # # chunk_embeddings = chunk_embeddings / np.linalg.norm(chunk_embeddings)
+        # # return chunk_embeddings.tolist()
+        # return chunk_embeddings
 
     async def aembed(self, text: str, **kwargs: Any) -> list[float]:
         """

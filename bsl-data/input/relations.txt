@@ -1,0 +1,50 @@
+# File Relationship Analysis
+
+## Molecules and Fragments
+
+- common_frag_mols.csv: Provides the compositional relationship between molecules and their fragments, i.e., which fragments constitute the molecules.
+- description_200w.csv: Describes how molecules and their fragments are connected, i.e., how fragments are linked together to form molecules.
+
+## Drugs and Targets
+
+- DTA.csv: Provides the affinity relationship between drugs and target proteins.
+- DTA_description.csv: Extends DTA.csv, offering a more detailed description of the affinity relationship.
+- DTI.csv: Describes the interaction strength between drugs and target proteins.
+
+## Drugs and Cell Lines
+
+- gdscv2.csv: Describes the inhibitory effect of drugs on specific cell lines (IC50 values), establishing the inhibitory relationship between drugs and cell lines.
+
+## Drugs and Side Effects
+
+- DDI.csv: Describes the interactions between drugs and their potential side effects, establishing the relationship between drugs and side effects.
+
+## Molecules and Properties
+
+- mpp_classification_description.csv: Describes the classification properties of molecules, such as anti-HIV activity, establishing the classification relationship between molecules and their properties.
+- mpp_regression_description.csv: Describes the regression properties of molecules, such as physicochemical properties, establishing the regression relationship between molecules and their properties.
+
+## Cell Lines and Genetic Features
+
+- PANCANCER_Genetic_feature.csv: Describes the genetic features and mutations of cell lines, establishing the association relationship between cell lines and their genetic features.
+
+## Entity and Relationship Analysis
+
+### Entities
+
+- Molecules/Drugs: Represented by SMILES, appearing in multiple files such as common_frag_mols.csv, DDI.csv, DTA.csv, DTI.csv, gdscv2.csv, etc.
+- Fragments: Substructures of molecules, appearing in common_frag_mols.csv and description_200w.csv.
+- Target Proteins: Appearing in DTA.csv, DTA_description.csv, and DTI.csv.
+- Cell Lines: Appearing in gdscv2.csv and PANCANCER_Genetic_feature.csv.
+- Side Effects: Appearing in DDI.csv.
+- Molecular Properties: Appearing in mpp_classification_description.csv and mpp_regression_description.csv.
+- Genetic Features: Appearing in PANCANCER_Genetic_feature.csv.
+
+### Relationships
+
+- Compositional Relationship: Relationship between molecules and their fragments (common_frag_mols.csv, description_200w.csv).
+- Interaction Relationship: Interactions between drugs (DDI.csv), interactions between drugs and target proteins (DTA.csv, DTI.csv).
+- Inhibitory Relationship: Inhibitory effect of drugs on cell lines (gdscv2.csv).
+- Classification Relationship: Classification relationship between molecules and their properties (mpp_classification_description.csv).
+- Regression Relationship: Regression relationship between molecules and their physicochemical properties (mpp_regression_description.csv).
+- Genetic Association Relationship: Association relationship between cell lines and their genetic features (PANCANCER_Genetic_feature.csv).

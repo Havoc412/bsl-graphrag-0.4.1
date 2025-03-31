@@ -1,0 +1,971 @@
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d14" for="edge" attr.name="level" attr.type="long" />
+  <key id="d13" for="edge" attr.name="human_readable_id" attr.type="long" />
+  <key id="d12" for="edge" attr.name="id" attr.type="string" />
+  <key id="d11" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d10" for="edge" attr.name="description" attr.type="string" />
+  <key id="d9" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d8" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d7" for="node" attr.name="id" attr.type="string" />
+  <key id="d6" for="node" attr.name="human_readable_id" attr.type="long" />
+  <key id="d5" for="node" attr.name="degree" attr.type="long" />
+  <key id="d4" for="node" attr.name="level" attr.type="long" />
+  <key id="d3" for="node" attr.name="cluster" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="CONTAINS">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d3">2</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">0</data>
+      <data key="d7">c339ab85343c41619b93b28dde7781ef</data>
+    </node>
+    <node id="COMMON_FRAG_MOLS.CSV">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d3">2</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">1</data>
+      <data key="d7">53106e4e0f86487b849038776f18a316</data>
+    </node>
+    <node id="DESCRIBES">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">2</data>
+      <data key="d7">4bad342583ce42f9be8799f814ee5be2</data>
+    </node>
+    <node id="DESCRIPTION_200W.CSV">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d3">3</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">3</data>
+      <data key="d7">0c1ea3eaf4d742f68dee94f74f576403</data>
+    </node>
+    <node id="AFFINITY">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">1</data>
+      <data key="d6">4</data>
+      <data key="d7">7c7586d7f11a407ba6b4e98c001c01d6</data>
+    </node>
+    <node id="DTA.CSV">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">2</data>
+      <data key="d6">5</data>
+      <data key="d7">366733dad956431fa6d60185198722b1</data>
+    </node>
+    <node id="INTERACTSWITH">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,d8fe13b4c28828077dd3882b53923748</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">4</data>
+      <data key="d6">6</data>
+      <data key="d7">26c27db4f5f54a26b6da27f8743992cb</data>
+    </node>
+    <node id="DDI.CSV">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25,6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+      <data key="d5">5</data>
+      <data key="d6">7</data>
+      <data key="d7">da14b47f9ff942d1a75aadf8d56ecdd6</data>
+    </node>
+    <node id="INHIBITS">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,d8fe13b4c28828077dd3882b53923748</data>
+      <data key="d5">1</data>
+      <data key="d6">8</data>
+      <data key="d7">18b1eb4c60c546e6b903bbb237bd23bb</data>
+    </node>
+    <node id="GDSCV2.CSV">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,6ad67ce3f75f92f88dd93ecbb7de8d02,d8fe13b4c28828077dd3882b53923748</data>
+      <data key="d5">3</data>
+      <data key="d6">9</data>
+      <data key="d7">979b9fd0110d45c7918b7245e1caf2aa</data>
+    </node>
+    <node id="CLASSIFIES">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">1</data>
+      <data key="d6">10</data>
+      <data key="d7">80b0ef7458bb484da56b00f8b9de3736</data>
+    </node>
+    <node id="MPP_CLASSIFICATION_DESCRIPTION.CSV">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">2</data>
+      <data key="d6">11</data>
+      <data key="d7">de1ddc77e3ee4730ba04d2899c677645</data>
+    </node>
+    <node id="ASSOCIATESWITH">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">1</data>
+      <data key="d6">12</data>
+      <data key="d7">1e2ce03b515e45d9acabb98a4847b7c6</data>
+    </node>
+    <node id="PANCANCER_GENETIC_FEATURE.CSV">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">3</data>
+      <data key="d6">13</data>
+      <data key="d7">f9cbce2a74014b7b9e3370c0190f85da</data>
+    </node>
+    <node id="COMPOSEDOF">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">1</data>
+      <data key="d6">14</data>
+      <data key="d7">b0db7f23b5534d7594df51a04f8c163c</data>
+    </node>
+    <node id="MOLECULE">
+      <data key="d0" />
+      <data key="d1">Here is a comprehensive summary of the data:
+
+**MOLECULE**
+
+The MOLECULE, specifically referred to as Molecule A, has been found to exhibit anti-HIV activity. In terms of its physicochemical properties, it possesses a rotational constant of X and a dipole moment of Y.</data>
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">4</data>
+      <data key="d6">15</data>
+      <data key="d7">9a1f2ebb24f54f9bb85a245f2f010fa9</data>
+    </node>
+    <node id="FORMS">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">1</data>
+      <data key="d6">16</data>
+      <data key="d7">76297da553df4ea98b9aa4133e671da1</data>
+    </node>
+    <node id="DRUG">
+      <data key="d0" />
+      <data key="d1">Here is a comprehensive summary of the data:
+
+**The Entity: DRUG**
+
+The drug, also known as Drug A, is a type of chemical compound that is used to treat or prevent diseases. It has a specific binding affinity (Kd value) of F and an interaction strength of G.
+
+Note: I did not include any additional information in the summary since there were no other descriptions provided. If more descriptions are added, I can update the summary accordingly.</data>
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,5d0e3c0ffb06b7e66e7e88346ce37a25,6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">3</data>
+      <data key="d6">17</data>
+      <data key="d7">4bf0416d1fbb4643bfaa6aef799586a7</data>
+    </node>
+    <node id="CAUSES">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">18</data>
+      <data key="d7">c9b618b490f24c008f84b226b1cf4450</data>
+    </node>
+    <node id="HASEFFECTON">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">19</data>
+      <data key="d7">65a393befee54fd0913ef05464dc0d77</data>
+    </node>
+    <node id="HASPROPERTY">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">2</data>
+      <data key="d6">20</data>
+      <data key="d7">bf9400524aee401baa163d21f90c1118</data>
+    </node>
+    <node id="HASFEATURE">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">2</data>
+      <data key="d6">21</data>
+      <data key="d7">610100cefcd54bfe8b9fc1fedc55ff98</data>
+    </node>
+    <node id="CELLLINE">
+      <data key="d0" />
+      <data key="d1">Here is a comprehensive summary of the data:
+
+The CELL LINE, specifically Cell Line G, exhibits sensitivity to multiple drugs, including A, X, and Y. Notably, drug A demonstrates an IC50 value of H, indicating its potency in inhibiting cellular activity. Additionally, this cell line possesses genetic feature I, which remains unaltered or non-mutated.</data>
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">1</data>
+      <data key="d6">22</data>
+      <data key="d7">0788e79b247b439f863091574b51ef9a</data>
+    </node>
+    <node id="HASFRAGMENT">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">1</data>
+      <data key="d6">23</data>
+      <data key="d7">732c44af51a542db9d085434d8172235</data>
+    </node>
+    <node id="FRAGMENT">
+      <data key="d0" />
+      <data key="d1">Here is a comprehensive summary of the data:
+
+**Fragment**
+
+A Fragment, in the context of molecular chemistry, refers to a substructure within a molecule. These fragments can be utilized to describe the properties and behavior of the molecule as a whole. They are essential components that help understand the complex interactions and characteristics of molecules.
+
+Note: I have removed the empty string from the description list, as it does not provide any useful information. The summary is written in third person and includes the entity name "Fragment" for context.</data>
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d5">2</data>
+      <data key="d6">24</data>
+      <data key="d7">6843f7e84e7645428e70f144d48759d3</data>
+    </node>
+    <node id="ISCONNECTEDTO">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">1</data>
+      <data key="d6">25</data>
+      <data key="d7">2b1a2c23ccbd4b7abfab6899f8659730</data>
+    </node>
+    <node id="TARGETPROTEIN">
+      <data key="d0" />
+      <data key="d1">Here is the comprehensive summary:
+
+TARGETPROTEIN plays a crucial role in understanding drug efficacy and safety. Specifically, Target protein E has affinity with drugs A, X, Y, where drug A has a Kd value of F and interaction strength of G. This indicates that TARGETPROTEIN interacts with these specific drugs, which is essential for assessing the effectiveness and potential risks associated with their use.</data>
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,6ad67ce3f75f92f88dd93ecbb7de8d02,d8fe13b4c28828077dd3882b53923748</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">26</data>
+      <data key="d7">b1e20db55de84c35b38c7c128cdacb71</data>
+    </node>
+    <node id="SIDEEFFECT">
+      <data key="d0" />
+      <data key="d1">Here is a comprehensive summary of the data:
+
+SIDEEFFECT refers to unwanted or adverse effects that can occur when taking medication. Specifically, one known side effect, C, is caused by the interaction between drug A and drug B, resulting in esophageal spasm. Understanding the safety profile of drugs requires careful consideration of these potential side effects.
+
+Note: I have included all relevant information from the descriptions, resolving any contradictions to provide a coherent summary.</data>
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,5d0e3c0ffb06b7e66e7e88346ce37a25,6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">27</data>
+      <data key="d7">d96075a57ccf48bebdea0c7beec538b3</data>
+    </node>
+    <node id="PROPERTY">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">1</data>
+      <data key="d6">28</data>
+      <data key="d7">29deaec35f1f40019803b606c3a85aa6</data>
+    </node>
+    <node id="GENETICFEATURE">
+      <data key="d0" />
+      <data key="d1">Here is a comprehensive summary of the data:
+
+The GENETIC FEATURE has been observed to be present in certain cell lines. Specifically, it can be found in cell lines G, H, and K. Notably, in cell line G, this feature is not mutated, indicating that its presence is stable and intact in this particular sample.</data>
+      <data key="d2">0b94e92516c7664f92168e42fa582a70,6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">1</data>
+      <data key="d6">29</data>
+      <data key="d7">993805c6cd7d49e1a5f585992611967b</data>
+    </node>
+    <node id="ISPARTOF">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d5">1</data>
+      <data key="d6">30</data>
+      <data key="d7">45b0180d85994f21bcbfd564e8dcd572</data>
+    </node>
+    <node id="MEGGIE TAZBAH">
+      <data key="d0" />
+      <data key="d1">Here is a comprehensive summary of the data provided:
+
+Meggie Tazbah is a person who was held as a hostage in Firuzabad.</data>
+      <data key="d2">5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25,97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d8">PERSON</data>
+      <data key="d5">4</data>
+      <data key="d6">31</data>
+      <data key="d7">c98054b22df64740a8892e9934fb5e14</data>
+    </node>
+    <node id="DURKE BATAGLANI">
+      <data key="d0" />
+      <data key="d1">Here is the comprehensive summary of the data:
+
+Durke Bataglani is a person who was involved in a hostage exchange and was also held as a hostage in Firuzabad.</data>
+      <data key="d2">5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25,97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d8">PERSON</data>
+      <data key="d5">3</data>
+      <data key="d6">32</data>
+      <data key="d7">6c1175adefba47ab951199f52f880aa1</data>
+    </node>
+    <node id="EXCHANGED">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d5">2</data>
+      <data key="d6">33</data>
+      <data key="d7">787fe245c6094bdb89a53b37982c3353</data>
+    </node>
+    <node id="SAMUEL NAMARA">
+      <data key="d0" />
+      <data key="d1">Here is a comprehensive summary of the data provided:
+
+**SAMUEL NAMARA**
+
+SAMUEL NAMARA is a person who was held hostage in Firuzabad.</data>
+      <data key="d2">5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25,97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d5">5</data>
+      <data key="d6">34</data>
+      <data key="d7">4e855dc592b34ce5855d6c7533c58907</data>
+    </node>
+    <node id="FIRUZABAD">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25,97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d5">3</data>
+      <data key="d6">35</data>
+      <data key="d7">8d9fc930d81d478f8ca95fa05b244753</data>
+    </node>
+    <node id="FILE_NAME">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d3">2</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">36</data>
+      <data key="d7">fd3f55152b1f4f18833a09a9aa7942c6</data>
+    </node>
+    <node id="WAS HOSTAGE IN">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d5">2</data>
+      <data key="d6">37</data>
+      <data key="d7">61b0eedecf8840d2adec77caa5ad9582</data>
+    </node>
+    <node id="JOHN SMITH">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d5">1</data>
+      <data key="d6">38</data>
+      <data key="d7">7b21928901c248d88c4125819f0445d3</data>
+    </node>
+    <node id="CONTAINS INFORMATION ABOUT">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d3">2</data>
+      <data key="d4">0</data>
+      <data key="d5">2</data>
+      <data key="d6">39</data>
+      <data key="d7">8da3a4817e6a4da4be170efc0b986b13</data>
+    </node>
+    <node id="JANE DOE">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d5">1</data>
+      <data key="d6">40</data>
+      <data key="d7">718a3a994d424c9c89940ceeae07dffd</data>
+    </node>
+    <node id="DTI.CSV">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">d8fe13b4c28828077dd3882b53923748</data>
+      <data key="d3">1</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">41</data>
+      <data key="d7">23943dfcbfd44f6a9e89caefb95bcefe</data>
+    </node>
+    <node id="SMILES">
+      <data key="d0">ENTITY</data>
+      <data key="d1">SMILES strings are a standardized notation for representing the structure of chemical molecules, essential for drug discovery and synthesis</data>
+      <data key="d2">5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d8">ENTITY</data>
+      <data key="d5">0</data>
+      <data key="d6">42</data>
+      <data key="d7">ad1be3b926344c48a7291efb82c350ee</data>
+    </node>
+    <node id="HASAFFINITY">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">1</data>
+      <data key="d6">43</data>
+      <data key="d7">59e3d8c9df2444b3acfc0b37aceb02ec</data>
+    </node>
+    <node id="SENSITIVETO">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">1</data>
+      <data key="d6">44</data>
+      <data key="d7">1f63cebbb02f447fa1a8c4740b01bd66</data>
+    </node>
+    <node id="CAUSEDBY">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d3">0</data>
+      <data key="d4">0</data>
+      <data key="d5">1</data>
+      <data key="d6">45</data>
+      <data key="d7">58d16b1a830540809b4284910df31b2b</data>
+    </node>
+    <node id="EXHIBITSPROPERTY">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">1</data>
+      <data key="d6">46</data>
+      <data key="d7">6bd558883042423e9daabdbb0bea5f6c</data>
+    </node>
+    <node id="APPEARSIN">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">1</data>
+      <data key="d6">47</data>
+      <data key="d7">f43f1b71ef70446eb6b174f20ee48f61</data>
+    </node>
+    <node id="IC50VALUE">
+      <data key="d0">ENTITY</data>
+      <data key="d1">Cell line G is sensitive to drugs A, X, Y, with drug A having an IC50 value of H.</data>
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d8">ENTITY</data>
+      <data key="d5">0</data>
+      <data key="d6">48</data>
+      <data key="d7">9dc9f3fc84ca4469b21a65351bd4a41f</data>
+    </node>
+    <node id="HASIC50VALUE">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">1</data>
+      <data key="d6">49</data>
+      <data key="d7">5db24151c40447b2875e51d1a84e4a7d</data>
+    </node>
+    <node id="DRUGCOMBINATION">
+      <data key="d0">ENTITY</data>
+      <data key="d1">Side effect C is caused by the interaction between drug A and drug B, specifically manifested as esophageal spasm.</data>
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">0</data>
+      <data key="d6">50</data>
+      <data key="d7">94fcfdb28cf54d648f8f5854dbcd9434</data>
+    </node>
+    <node id="PHYSICOCHEMICALPROPERTY">
+      <data key="d0">ENTITY</data>
+      <data key="d1">Molecule A exhibits anti-HIV activity, with physicochemical properties including rotational constant X and dipole moment Y.</data>
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">0</data>
+      <data key="d6">51</data>
+      <data key="d7">530d4cd5399945fd95779c33930bc03d</data>
+    </node>
+    <node id="MUTATIONSTATUS">
+      <data key="d0">ENTITY</data>
+      <data key="d1">Genetic feature I appears in cell lines G, H, K, where this feature is not mutated in cell line G.</data>
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">0</data>
+      <data key="d6">52</data>
+      <data key="d7">05d408965c404e39abaa7b3345c79818</data>
+    </node>
+    <node id="HASMUTATIONSTATUS">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d5">1</data>
+      <data key="d6">53</data>
+      <data key="d7">20d587e5a82446a79fd40c12166406ee</data>
+    </node>
+    <node id="ALHAMIA PRISON">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d5">1</data>
+      <data key="d6">54</data>
+      <data key="d7">af21a3bf719b4215bfa1cd50e8a4e3b5</data>
+    </node>
+    <node id="DRUG A">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d5">1</data>
+      <data key="d6">55</data>
+      <data key="d7">563bd2ec3b25457596596370550a94ff</data>
+    </node>
+    <node id="MECHANISM C">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d5">1</data>
+      <data key="d6">56</data>
+      <data key="d7">6ecc96dbbde84a5ea6329baab537a72f</data>
+    </node>
+    <node id="DRUG B">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d5">1</data>
+      <data key="d6">57</data>
+      <data key="d7">22d24a4b50f04f60835e1ed465b03f83</data>
+    </node>
+    <node id="EFFECT D">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d5">1</data>
+      <data key="d6">58</data>
+      <data key="d7">42d239ca03e1402b9e6c0bc0301d17c9</data>
+    </node>
+    <edge source="CONTAINS" target="COMMON_FRAG_MOLS.CSV">
+      <data key="d9">7.0</data>
+      <data key="d10">Here is a comprehensive summary of the data:
+
+The CONTAINS and COMMON_FRAG_MOLS.CSV entities are related to molecular fragments. Specifically, they contain information about molecules that can be represented as SMILES (Simplified Molecular Input Line Entry System) strings. These molecules are broken down into smaller fragments, which are stored in the COMMON_FRAG_MOLS.CSV file. Each fragment is a distinct molecule with its own unique properties and characteristics.
+
+Note: I have resolved any potential contradictions by assuming that the CONTAINS entity is a container or database that holds information about molecular fragments, while the COMMON_FRAG_MOLS.CSV file is a specific dataset within that container that contains the actual fragment data.</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70,5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d12">8b409d29777c40788f42238b86cd2916</data>
+      <data key="d13">0</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="CONTAINS" target="DDI.CSV">
+      <data key="d9">4.0</data>
+      <data key="d10">Here is a comprehensive summary of the data:
+
+**CONTAINS**
+
+The CONTAINS entity refers to a compound or substance that contains one or more molecules. It can be described as a **Drug**, which implies its potential therapeutic use, and also as a **Molecule**, indicating its chemical composition. Furthermore, it can be represented by a unique string of characters known as SMILES (Simplified Molecular Input Line Entry System), which provides a concise and standardized way to describe the molecular structure.
+
+Note: I have resolved any potential contradictions by considering the CONTAINS entity as a compound or substance that contains molecules, rather than being a molecule itself. This allows for the inclusion of both "Drug" and "Molecule" descriptions in the summary.</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d12">09f8fd89ece04110b9f73aac9c38c0b1</data>
+      <data key="d13">1</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="CONTAINS" target="FILE_NAME">
+      <data key="d9">3.0</data>
+      <data key="d10">Molecule</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d12">8c116133de5d46aca9706e76f4e2385c</data>
+      <data key="d13">2</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="COMMON_FRAG_MOLS.CSV" target="CONTAINS INFORMATION ABOUT">
+      <data key="d9">1.0</data>
+      <data key="d10">Molecule Fragment</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d12">3f646c02373c4f6cba46555ef16d0fb2</data>
+      <data key="d13">3</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DESCRIBES" target="DESCRIPTION_200W.CSV">
+      <data key="d9">2.0</data>
+      <data key="d10">Fragment</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">39155cbde15f407db50b1ebe6b388513</data>
+      <data key="d13">4</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DESCRIBES" target="DDI.CSV">
+      <data key="d9">1.0</data>
+      <data key="d10">SideEffect</data>
+      <data key="d11">5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d12">815749af6e594162b335bb6b03e606e1</data>
+      <data key="d13">5</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="AFFINITY" target="DTA.CSV">
+      <data key="d9">2.0</data>
+      <data key="d10">TargetProtein</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">6950f37f3ac644eeb0eaeda6ea04839f</data>
+      <data key="d13">6</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DTA.CSV" target="HASAFFINITY">
+      <data key="d9">15.0</data>
+      <data key="d10">Here is a comprehensive description of the entities:
+
+**DTA.CSV**
+
+DTA.CSV is a drug that has been identified as having affinity for a specific target protein.
+
+**HASAFFINITY**
+
+The HASAFFINITY entity refers to the presence or characteristic of having an affinity, which in this context implies a binding relationship between DTA.CSV and its target protein.</data>
+      <data key="d11">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d12">2a63a8df13aa47c781dd105a1a3680e7</data>
+      <data key="d13">7</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="INTERACTSWITH" target="DDI.CSV">
+      <data key="d9">2.0</data>
+      <data key="d10">SideEffect</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">7a78eeb22c534c6d831ba2ebf7c1b901</data>
+      <data key="d13">8</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="INTERACTSWITH" target="DRUG">
+      <data key="d9">5.0</data>
+      <data key="d10">TargetProtein</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">5098f46d8d0d4f4680f974fab86df3c2</data>
+      <data key="d13">9</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="INTERACTSWITH" target="TARGETPROTEIN">
+      <data key="d9">1.0</data>
+      <data key="d10">Drug</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">b209cba4766847dcb847494b5de8411c</data>
+      <data key="d13">10</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="INTERACTSWITH" target="DTI.CSV">
+      <data key="d9">5.0</data>
+      <data key="d10">SMILES</data>
+      <data key="d11">d8fe13b4c28828077dd3882b53923748</data>
+      <data key="d12">de131e419e47447b991be0ce63f337d0</data>
+      <data key="d13">11</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DDI.CSV" target="CONTAINS INFORMATION ABOUT">
+      <data key="d9">1.0</data>
+      <data key="d10">Drug-Drug Interaction</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d12">3a497ed94fe54a5abcc83a104a3eb878</data>
+      <data key="d13">12</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DDI.CSV" target="CAUSEDBY">
+      <data key="d9">15.0</data>
+      <data key="d10">Here is a comprehensive summary of the data:
+
+**DDI.CSV (Drug Combination) and CAUSEDBY (Caused By)**
+
+The DDI.CSV entity refers to a drug combination, which is a set of two or more drugs that are prescribed together for therapeutic purposes. This entity is related to the CAUSEDBY entity, which indicates that the side effects of one or more drugs in the combination can be caused by another drug in the same combination.
+
+In other words, DDI.CSV and CAUSEDBY are interconnected entities where a drug combination (DDI.CSV) can lead to side effects (CAUSEDBY), which are adverse reactions that occur as a result of taking one or more drugs. This summary combines information from both descriptions, providing a clear understanding of the relationship between these two entities.
+
+Note: There were no contradictions in the provided descriptions, so this summary is a straightforward combination of the two.</data>
+      <data key="d11">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d12">d96aa7bf76c0454a85adf97bd17137d1</data>
+      <data key="d13">13</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="INHIBITS" target="GDSCV2.CSV">
+      <data key="d9">3.0</data>
+      <data key="d10">Here is a comprehensive summary of the data:
+
+The INHIBITS and GDSCV2.CSV entities are related to cell lines. The INHIBITS entity specifically inhibits certain cell lines, while the GDSCV2.CSV entity appears to be a dataset or collection of information regarding these cell lines.
+
+It can be inferred that the SMILES (Simplified Molecular Input Line Entry System) notation is used to represent the chemical structures of compounds that interact with or inhibit the cell lines associated with INHIBITS and GDSCV2.CSV.</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70,d8fe13b4c28828077dd3882b53923748</data>
+      <data key="d12">04abc24934e248028e4fbb471fb3e3e0</data>
+      <data key="d13">14</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="GDSCV2.CSV" target="SENSITIVETO">
+      <data key="d9">10.0</data>
+      <data key="d10">CellLine</data>
+      <data key="d11">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d12">f504f60160f948a98d4fac8990574c8a</data>
+      <data key="d13">15</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="GDSCV2.CSV" target="HASIC50VALUE">
+      <data key="d9">6.0</data>
+      <data key="d10">IC50Value</data>
+      <data key="d11">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d12">49169f01f0e34951b7d457490db2dcbf</data>
+      <data key="d13">16</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="CLASSIFIES" target="MPP_CLASSIFICATION_DESCRIPTION.CSV">
+      <data key="d9">2.0</data>
+      <data key="d10">Property</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">e4800e0513394bafa04c86ec3f982498</data>
+      <data key="d13">17</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="MPP_CLASSIFICATION_DESCRIPTION.CSV" target="EXHIBITSPROPERTY">
+      <data key="d9">15.0</data>
+      <data key="d10">Here is a comprehensive summary of the data:
+
+**MPP_CLASSIFICATION_DESCRIPTION.CSV and EXHIBITSPROPERTY**
+
+The MPP_CLASSIFICATION_DESCRIPTION.CSV and EXHIBITSPROPERTY entities are related to **Molecules**, which can be described as chemical substances with distinct physicochemical properties. These molecules have various characteristics, including their structure, composition, and behavior under different conditions.
+
+Physicochemical properties of these molecules include their molecular weight, boiling point, melting point, density, solubility, and other relevant physical and chemical attributes that define their behavior in various environments.</data>
+      <data key="d11">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d12">7900c9b9e33f471b85bfea310c11c7ea</data>
+      <data key="d13">18</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="ASSOCIATESWITH" target="PANCANCER_GENETIC_FEATURE.CSV">
+      <data key="d9">2.0</data>
+      <data key="d10">GeneticFeature</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">2642d953964b42cf87c89861f8cffdb8</data>
+      <data key="d13">19</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="PANCANCER_GENETIC_FEATURE.CSV" target="APPEARSIN">
+      <data key="d9">10.0</data>
+      <data key="d10">GeneticFeature</data>
+      <data key="d11">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d12">fc92197cf8c848afa103c978579b7a63</data>
+      <data key="d13">20</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="PANCANCER_GENETIC_FEATURE.CSV" target="HASMUTATIONSTATUS">
+      <data key="d9">1.0</data>
+      <data key="d10">MutationStatus</data>
+      <data key="d11">6ad67ce3f75f92f88dd93ecbb7de8d02</data>
+      <data key="d12">1fb44f4e07b649d1891ef8161cf7a2c4</data>
+      <data key="d13">21</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="COMPOSEDOF" target="MOLECULE">
+      <data key="d9">1.0</data>
+      <data key="d10">Fragment</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">5917513e34244592bf1b33aa7c084472</data>
+      <data key="d13">22</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="MOLECULE" target="FORMS">
+      <data key="d9">1.0</data>
+      <data key="d10">Fragment</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">2026a55146e7449fb92f5cd79c158019</data>
+      <data key="d13">23</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="MOLECULE" target="HASPROPERTY">
+      <data key="d9">2.0</data>
+      <data key="d10">Property</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">ffcfa3087f7a41b5a889d89be3058b0a</data>
+      <data key="d13">24</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="MOLECULE" target="ISPARTOF">
+      <data key="d9">4.0</data>
+      <data key="d10">Fragment</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">0b80e039ac0341af99ca8948d029279b</data>
+      <data key="d13">25</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DRUG" target="CAUSES">
+      <data key="d9">4.0</data>
+      <data key="d10">SideEffect</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">84ac3a237169490f8e0ddce94ed998b3</data>
+      <data key="d13">26</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DRUG" target="HASEFFECTON">
+      <data key="d9">6.0</data>
+      <data key="d10">CellLine</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">5b6f6505bf2049e3b05a3ea93602ad25</data>
+      <data key="d13">27</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="CAUSES" target="SIDEEFFECT">
+      <data key="d9">2.0</data>
+      <data key="d10">Drug</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">9c68945ed0d347c996d6ec2a1fc1fdf2</data>
+      <data key="d13">28</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="HASPROPERTY" target="PROPERTY">
+      <data key="d9">4.0</data>
+      <data key="d10">Molecule</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">634f3a4859b643aebe71c9e83ccd755f</data>
+      <data key="d13">29</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="HASFEATURE" target="CELLLINE">
+      <data key="d9">2.0</data>
+      <data key="d10">GeneticFeature</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">55f2b666cc4d4a079c310bacf4cfa9ad</data>
+      <data key="d13">30</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="HASFEATURE" target="GENETICFEATURE">
+      <data key="d9">4.0</data>
+      <data key="d10">CellLine</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">3cfff8fb04464631b064c7be6dbe4e47</data>
+      <data key="d13">31</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="HASFRAGMENT" target="FRAGMENT">
+      <data key="d9">2.0</data>
+      <data key="d10">Molecule</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">24147a98c05d40b2bbb61ae89c23d78a</data>
+      <data key="d13">32</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="FRAGMENT" target="ISCONNECTEDTO">
+      <data key="d9">5.0</data>
+      <data key="d10">Molecule</data>
+      <data key="d11">0b94e92516c7664f92168e42fa582a70</data>
+      <data key="d12">80ab4901fe19458f9e689d116302306e</data>
+      <data key="d13">33</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="MEGGIE TAZBAH" target="DURKE BATAGLANI">
+      <data key="d9">8.0</data>
+      <data key="d10">Meggie Tazbah and Durke Bataglani were exchanged in the same hostage release</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25,97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d12">7bb1eaf7af8d48048aeb1ed9eb621926</data>
+      <data key="d13">34</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="MEGGIE TAZBAH" target="EXCHANGED">
+      <data key="d9">7.0</data>
+      <data key="d10">DURKE BATAGLANI</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d12">9ceeb794b64245c194fa3e731370583e</data>
+      <data key="d13">35</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="MEGGIE TAZBAH" target="FIRUZABAD">
+      <data key="d9">8.0</data>
+      <data key="d10">Meggie Tazbah was a hostage in Firuzabad</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface,97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d12">ea86d239763a4d4ba11c6fa4f4717a04</data>
+      <data key="d13">36</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="MEGGIE TAZBAH" target="SAMUEL NAMARA">
+      <data key="d9">4.0</data>
+      <data key="d10">Samuel Namara and Meggie Tazbah were exchanged in the same hostage release</data>
+      <data key="d11">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d12">bb439117cacb4445ba29c1a23d21ae79</data>
+      <data key="d13">37</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DURKE BATAGLANI" target="FIRUZABAD">
+      <data key="d9">4.0</data>
+      <data key="d10">Durke Bataglani was a hostage in Firuzabad</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface,97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d12">ea0bb9fb1cd440d8ae6bdd9d83701102</data>
+      <data key="d13">38</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DURKE BATAGLANI" target="SAMUEL NAMARA">
+      <data key="d9">4.0</data>
+      <data key="d10">Samuel Namara and Durke Bataglani were exchanged in the same hostage release</data>
+      <data key="d11">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d12">805f4027b73e4315b201c5e0f61713b0</data>
+      <data key="d13">39</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="EXCHANGED" target="SAMUEL NAMARA">
+      <data key="d9">6.0</data>
+      <data key="d10">DURKE BATAGLANI</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface,5d0e3c0ffb06b7e66e7e88346ce37a25</data>
+      <data key="d12">79b1bf03c3f9436a92fc349ab8876ff1</data>
+      <data key="d13">40</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="SAMUEL NAMARA" target="FIRUZABAD">
+      <data key="d9">6.0</data>
+      <data key="d10">Samuel Namara was a hostage in Firuzabad</data>
+      <data key="d11">5d0e3c0ffb06b7e66e7e88346ce37a25,97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d12">523b2e8fcf8c4ca49b7d475d404a9be0</data>
+      <data key="d13">41</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="SAMUEL NAMARA" target="ALHAMIA PRISON">
+      <data key="d9">16.0</data>
+      <data key="d10">Samuel Namara was a prisoner at Alhamia prison</data>
+      <data key="d11">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d12">9f98434424634921a0e4da85fd6df3b5</data>
+      <data key="d13">42</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="WAS HOSTAGE IN" target="JOHN SMITH">
+      <data key="d9">1.0</data>
+      <data key="d10">FIRUZABAD</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d12">c09ff8cbc9e243179aaee348b2a42b07</data>
+      <data key="d13">43</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="WAS HOSTAGE IN" target="JANE DOE">
+      <data key="d9">1.0</data>
+      <data key="d10">FIRUZABAD</data>
+      <data key="d11">5156a08e65f8ee13715494bc892eface</data>
+      <data key="d12">0cac04681515461fa440a2ab833e86be</data>
+      <data key="d13">44</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DRUG A" target="MECHANISM C">
+      <data key="d9">2.0</data>
+      <data key="d10">Drug A interacts with drug B through mechanism C</data>
+      <data key="d11">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d12">10e3725e562540689724c02a841a6126</data>
+      <data key="d13">45</data>
+      <data key="d14">0</data>
+    </edge>
+    <edge source="DRUG B" target="EFFECT D">
+      <data key="d9">1.0</data>
+      <data key="d10">Drug B results in effect D when interacting with Drug A</data>
+      <data key="d11">97bfd7986cdeb08ac7deefa25e054a1b</data>
+      <data key="d12">727cb993a60b49fe9d610f4f0b93693a</data>
+      <data key="d13">46</data>
+      <data key="d14">0</data>
+    </edge>
+  </graph>
+</graphml>

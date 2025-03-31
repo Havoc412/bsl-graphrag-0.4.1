@@ -31,7 +31,7 @@ def run_global_search(
 
     Loads index files required for global search and calls the Query API.
     """
-    root = root_dir.resolve()
+    root = root_dir.resolve()  # TIP 转换为绝对路径
     config = load_config(root, config_filepath)
     config.storage.base_dir = str(data_dir) if data_dir else config.storage.base_dir
     resolve_paths(config)
@@ -52,6 +52,13 @@ def run_global_search(
         "create_final_community_reports"
     ]
 
+    # for key, df in dataframe_dict.items():   # TEST
+    #     if df is not None:
+    #         print(f"Sample data from {key}:")
+    #         print(df.head())  # 输出前5行
+    #         print("\n")
+    # return
+
     # call the Query API
     if streaming:
 
@@ -71,6 +78,7 @@ def run_global_search(
                 if get_context_data:
                     context_data = stream_chunk
                     get_context_data = False
+                    print("\n😺 ------\n\n", stream_chunk, end="\n\n😺 ------\n\n")
                 else:
                     full_response += stream_chunk
                     print(stream_chunk, end="")  # noqa: T201
@@ -139,6 +147,13 @@ def run_local_search(
     final_entities: pd.DataFrame = dataframe_dict["create_final_entities"]
     final_covariates: pd.DataFrame | None = dataframe_dict["create_final_covariates"]
 
+    # for key, df in dataframe_dict.items():   # TEST
+    #     if df is not None:
+    #         print(f"Sample data from {key}:")
+    #         print(df.head())  # 输出前5行
+    #         print("\n")
+    # return
+
     # call the Query API
     if streaming:
 
@@ -161,6 +176,8 @@ def run_local_search(
                 if get_context_data:
                     context_data = stream_chunk
                     get_context_data = False
+                    print("\n😺 ------\n\n", stream_chunk, end="\n\n😺 ------\n\n")
+                    # break  # TEST 只输出第一结果的效果。
                 else:
                     full_response += stream_chunk
                     print(stream_chunk, end="")  # noqa: T201
@@ -257,11 +274,14 @@ def _resolve_parquet_files(
     parquet_list: list[str],
     optional_list: list[str] | None = None,
 ) -> dict[str, pd.DataFrame]:
+    
     """Read parquet files to a dataframe dict."""
+
     dataframe_dict = {}
     pipeline_config = create_pipeline_config(config)
     storage_obj = _create_storage(root_dir=root_dir, config=pipeline_config.storage)
     for parquet_file in parquet_list:
+        # print(parquet_file)  # TEST
         df_key = parquet_file.split(".")[0]
         df_value = asyncio.run(
             _load_table_from_storage(name=parquet_file, storage=storage_obj)
